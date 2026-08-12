@@ -3,7 +3,7 @@ import { Download, Share2 } from 'lucide-react';
 import html2canvas from 'html2canvas';
 
 interface ActionButtonsProps {
-  targetRef: React.RefObject<HTMLDivElement>;
+  targetRef: React.RefObject<HTMLDivElement | null>;
   format: 'A' | 'B';
 }
 
